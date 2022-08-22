@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock/Paper/Scissors</title>
+</head>
+
+<body>
+    <div class="container" class="resetEverything">
+        <div class="me">
+            cursor: pointer;
+            <button id="rock" onclick="rock(), random()">✊</button>
+            <button id="paper" onclick="paper(), random()">🤚</button>
+            <button id="scissor" onclick="scissor(), random()">✂️</button>
+        </div>
+        <div class="mid">=</div>
+        <div class="computer">
+            <h1 id="comp">☢️</h1>
+        </div>
+    </div>
+    <div id="result" class="resetEverything"></div>
+    <div id="reset" onclick="reset(), random()">♻️</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

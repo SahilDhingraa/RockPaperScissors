@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rock,
+#paper,
+#scissor,
+#comp,
+.mid,
+#reset {
+    display: block;
+    color: aliceblue;
+    font-size: 100px;
+    cursor: pointer;
+    background: transparent;
+}
+
+#result {
+    position: absolute;
+    font-family: 'Silkscreen', cursive;
+    font-size: 100px;
+    left: 32%;
+    color: aliceblue;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+#reset {
+    display: none;
+    position: absolute;
+    font-size: 150px;
+    bottom: 40%;
+    right: 42%;
+}
