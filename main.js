@@ -75,11 +75,11 @@ scissorval.onclick = () => {
 
     var computerChoice = random();
     if (computerChoice == 0) {
-        document.getElementById("result").innerHTML = "You Win!";
+        document.getElementById("result").innerHTML = "You Lose!";
         document.getElementById("comp").innerHTML= "✊";
     }
     if (computerChoice == 1) {
-        document.getElementById("result").innerHTML = "You Lose!";
+        document.getElementById("result").innerHTML = "You Win!";
         document.getElementById("comp").innerHTML= "🤚";
     }
     if (computerChoice == 2) {
