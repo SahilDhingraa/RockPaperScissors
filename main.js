@@ -44,7 +44,7 @@ rockval.onclick = () => {
     }
     if (computerChoice == 2) {
         document.getElementById("result").innerHTML = "You Win!";
-        document.getElementById("comp").innerHTML= "✂️";
+        document.getElementById("comp").innerHTML= "✌️";
     }
 }
 
@@ -64,7 +64,7 @@ paperval.onclick = () => {
     }
     if (computerChoice == 2) {
         document.getElementById("result").innerHTML = "You Lose!";
-        document.getElementById("comp").innerHTML= "✂️";
+        document.getElementById("comp").innerHTML= "✌️";
     }
 }
 
@@ -84,6 +84,6 @@ scissorval.onclick = () => {
     }
     if (computerChoice == 2) {
         document.getElementById("result").innerHTML = "Tie Kid!";
-        document.getElementById("comp").innerHTML= "✂️";
+        document.getElementById("comp").innerHTML= "✌️";
     }
 }
